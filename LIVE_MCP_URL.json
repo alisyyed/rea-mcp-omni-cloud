@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "rea",
   "title": "rea (morluto) Omni-Nexus",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-23T09:39:24Z"
+  "mcp_url": "https://roulette-won-pixels-third.trycloudflare.com/mcp",
+  "gui_url": "https://roulette-won-pixels-third.trycloudflare.com/",
+  "updated_at": "2026-11-23T09:47:47Z"
 }
