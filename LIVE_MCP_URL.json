@@ -1,8 +1,8 @@
 {
-  "status": "LIVE",
+  "status": "BOOTING",
   "engine": "rea",
   "title": "Rea OmniNexus (morluto/rea, 28 Tools)",
-  "mcp_url": "https://crystal-courts-departure-compete.trycloudflare.com/mcp",
-  "gui_url": "https://crystal-courts-departure-compete.trycloudflare.com/",
-  "updated_at": "2026-11-27T19:15:40Z"
+  "mcp_url": "",
+  "gui_url": "",
+  "updated_at": "2026-11-27T20:13:25Z"
 }
