@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "rea",
   "title": "Rea OmniNexus (morluto/rea, 28 Tools)",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-27T15:10:30Z"
+  "mcp_url": "https://risks-alt-turtle-entry.trycloudflare.com/mcp",
+  "gui_url": "https://risks-alt-turtle-entry.trycloudflare.com/",
+  "updated_at": "2026-11-27T15:11:12Z"
 }
