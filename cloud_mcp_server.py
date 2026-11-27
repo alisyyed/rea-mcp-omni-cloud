@@ -30,7 +30,7 @@ OBSCURA_MCP_URL = "https://obscura-mcp-forever.forested-lung.workers.dev/mcp"
 CURATED_TOOLS = [
   {
     "name": "rea_doctor_and_status",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Verify rea checkout, binaries, and 24/7 Cloud VM health.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Verify rea checkout, binaries, and 24/7 Cloud VM health.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -47,7 +47,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_discover_all_hidden_capabilities",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -64,7 +64,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_run_any_subcommand_or_script",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -81,7 +81,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_native_mcp_manifest_bridge",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Inspect and invoke native MCP definitions from `.codex-plugin/mcp.json`.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Inspect and invoke native MCP definitions from `.codex-plugin/mcp.json`.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -98,7 +98,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_capture",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/capture.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/capture.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -115,7 +115,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_computer",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/computer.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/computer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -132,7 +132,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_solve",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -149,7 +149,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_solve_cleanup",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve_cleanup.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve_cleanup.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -166,7 +166,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_capture",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_capture.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_capture.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -183,7 +183,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_computer",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_computer.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_computer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -200,7 +200,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_solve",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -217,7 +217,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_solve_cleanup",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve_cleanup.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve_cleanup.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -234,7 +234,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_rea_bridge",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/rea_bridge.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/rea_bridge.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -251,7 +251,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_private_acl",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/test_private_acl.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/test_private_acl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -268,7 +268,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_hopper_bridge",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/hopper_bridge.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/hopper_bridge.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -285,7 +285,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_hexrays_queries",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/hexrays_queries.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/hexrays_queries.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -302,7 +302,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_hexrays_queries",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/test_hexrays_queries.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/test_hexrays_queries.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -319,7 +319,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_rea_lldb_tracer",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/rea_lldb_tracer.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/rea_lldb_tracer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -336,7 +336,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_rea_lldb_tracer",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/test_rea_lldb_tracer.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/test_rea_lldb_tracer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -353,7 +353,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_core_context",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/core_context.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/core_context.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -370,7 +370,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_launch",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -387,7 +387,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_launch_impl",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch_impl.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch_impl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -404,7 +404,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_test_core_context",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/test_core_context.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/test_core_context.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -421,7 +421,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_decoder_runtime",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/decoder_runtime.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/decoder_runtime.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -438,7 +438,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_layout",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -455,7 +455,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_layout_impl",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout_impl.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout_impl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -472,7 +472,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_recorded_crash",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -489,7 +489,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_mod_recorded_crash_impl",
-    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash_impl.py` inside morluto/rea.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] [Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash_impl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -632,6 +632,7 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
                 "cutter": "https://cutter-mcp-forever.forested-lung.workers.dev/mcp",
                 "rea": "https://rea-mcp-forever.forested-lung.workers.dev/mcp",
                 "rea_portal": "https://rea-portal-mcp-forever.forested-lung.workers.dev/mcp",
+                "scrapling": "https://scrapling-mcp-forever.forested-lung.workers.dev/mcp",
             },
             "payload_json": arguments.get("payload_json", "{}"),
         }
