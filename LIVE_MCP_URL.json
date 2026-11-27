@@ -1,8 +1,8 @@
 {
-  "status": "LIVE",
+  "status": "BOOTING",
   "engine": "rea",
-  "title": "rea (morluto) Omni-Nexus",
-  "mcp_url": "https://edge-makes-explanation-finite.trycloudflare.com/mcp",
-  "gui_url": "https://edge-makes-explanation-finite.trycloudflare.com/",
-  "updated_at": "2026-11-27T10:47:34Z"
+  "title": "Rea OmniNexus (morluto/rea, 28 Tools)",
+  "mcp_url": "",
+  "gui_url": "",
+  "updated_at": "2026-11-27T15:10:30Z"
 }
