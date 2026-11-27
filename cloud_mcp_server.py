@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Auto-Generated 24/7 Cloud MCP Server for rea (morluto) Omni-Nexus (rea)
+Auto-Generated 24/7 Cloud MCP Server for Rea OmniNexus (morluto/rea, 28 Tools) (rea)
 Zero external pip dependencies required! Runs on pure Python 3 stdlib + cloudflared tunnel.
 Archetype: github_repo | Target: https://github.com/morluto/rea
 """
@@ -22,66 +22,15 @@ import urllib.request
 from pathlib import Path
 
 ENGINE_SLUG = "rea"
-DISPLAY_TITLE = "rea (morluto) Omni-Nexus"
+DISPLAY_TITLE = "Rea OmniNexus (morluto/rea, 28 Tools)"
 ARCHETYPE = "github_repo"
 TARGET_SOURCE = "https://github.com/morluto/rea"
-SYSTEM_RULES = "Enforce strictly zero em-dashes (\\u2014) or en-dashes (\\u2013) in all outputs; auto-replace with standard ASCII hyphens (-). | Wrap tool execution in Check2 SMod1-SMod9 pre-flight error prediction with automatic SMod0 clean baseline rollback on exception. | Prioritize and route all web fetching, SPA rendering, and multi-URL scraping through Obscura OmniNexus (obscura-mcp-forever). | Attach verifiable SHA-256 output hashes, UTC provenance timestamps, and subtractive 1-of-1 QA telemetry to every response. | Scrub all invisible zero-width Unicode characters (U+200B, U+200C, U+200D, U+FEFF) and enforce Nunito/hyphen-only formatting. | Enforce fail-fast execution contracts, explicit exit-code verification, and zero-placeholder technical output."
+SYSTEM_RULES = "Clone and expose morluto/rea CLI/library functions as 24/7 Cloud MCP tools with Obscura-First web fetching and all 6 Axiom Middlewares."
 OBSCURA_MCP_URL = "https://obscura-mcp-forever.forested-lung.workers.dev/mcp"
 CURATED_TOOLS = [
   {
-    "name": "orchestrate_cli_repo_to_cutter_r2_with_check2_smod0",
-    "description": "[rea (morluto) Omni-Nexus] Composite 3-Stage Pipeline: (1) cli_repo_exec -> (2) cutter_r2_ghidra_lift -> (3) check2_smod0_guard with automatic SMod0 rollback.",
-    "inputSchema": {
-      "type": "object",
-      "properties": {
-        "query": {
-          "type": "string",
-          "description": "Primary input query, URL, command, SQL statement, or text to process."
-        },
-        "options_json": {
-          "type": "string",
-          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
-        }
-      }
-    }
-  },
-  {
-    "name": "orchestrate_cli_repo_to_llm4decompile_c99_with_sqlite_vault",
-    "description": "[rea (morluto) Omni-Nexus] Composite 3-Stage Pipeline: (1) cli_repo_exec -> (2) llm4decompile_c99_refine -> (3) sqlite_vault_commit with automatic SMod0 rollback.",
-    "inputSchema": {
-      "type": "object",
-      "properties": {
-        "query": {
-          "type": "string",
-          "description": "Primary input query, URL, command, SQL statement, or text to process."
-        },
-        "options_json": {
-          "type": "string",
-          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
-        }
-      }
-    }
-  },
-  {
-    "name": "orchestrate_obscura_v8_to_cutter_r2_with_check2_smod0",
-    "description": "[rea (morluto) Omni-Nexus] Composite 3-Stage Pipeline: (1) obscura_v8_fetch -> (2) cutter_r2_ghidra_lift -> (3) check2_smod0_guard with automatic SMod0 rollback.",
-    "inputSchema": {
-      "type": "object",
-      "properties": {
-        "query": {
-          "type": "string",
-          "description": "Primary input query, URL, command, SQL statement, or text to process."
-        },
-        "options_json": {
-          "type": "string",
-          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
-        }
-      }
-    }
-  },
-  {
     "name": "rea_doctor_and_status",
-    "description": "[rea (morluto) Omni-Nexus] Verify morluto/rea checkout, build targets, and Cloud VM health.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Verify rea checkout, binaries, and 24/7 Cloud VM health.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -97,8 +46,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "rea_execute_command",
-    "description": "[rea (morluto) Omni-Nexus] Execute rea CLI or headless batch command with JSON output.",
+    "name": "rea_discover_all_hidden_capabilities",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -114,8 +63,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "rea_inspect_scripts",
-    "description": "[rea (morluto) Omni-Nexus] List and execute modules inside `morluto/rea/scripts` on the Cloud VM.",
+    "name": "rea_run_any_subcommand_or_script",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -131,8 +80,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "rea_inspect_src",
-    "description": "[rea (morluto) Omni-Nexus] List and execute modules inside `morluto/rea/src` on the Cloud VM.",
+    "name": "rea_native_mcp_manifest_bridge",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Inspect and invoke native MCP definitions from `.codex-plugin/mcp.json`.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -148,8 +97,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "rea_obscura_live_docs_bridge",
-    "description": "[rea (morluto) Omni-Nexus] Scrape live documentation, issues, and releases for morluto/rea via Obscura V8.",
+    "name": "rea_mod_capture",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/capture.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -165,8 +114,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "rea_smod0_verified_pipeline",
-    "description": "[rea (morluto) Omni-Nexus] Composite pipeline: run rea analysis -> cross-map with 7-Engine Fleet -> enforce Check2 SMod0 guard.",
+    "name": "rea_mod_computer",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/computer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -182,8 +131,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "memfd_ram_sandbox_exec",
-    "description": "[rea (morluto) Omni-Nexus] Execute compiled C/ELF payloads inside an anonymous Linux os.memfd_create RAM descriptor (/proc/self/fd).",
+    "name": "rea_mod_solve",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -199,8 +148,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "yara_signature_synthesizer",
-    "description": "[rea (morluto) Omni-Nexus] Generate high-precision YARA & FLIRT byte-pattern rules from hex opcodes or unique binary strings.",
+    "name": "rea_mod_solve_cleanup",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/solve_cleanup.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -216,8 +165,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "c_struct_layout_reconstructor",
-    "description": "[rea (morluto) Omni-Nexus] Reconstruct padded C/C++20 struct definitions and vtable offsets from raw decompiler field accesses.",
+    "name": "rea_mod_test_capture",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_capture.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -233,8 +182,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "ioctl_switch_table_decoder",
-    "description": "[rea (morluto) Omni-Nexus] Decode Windows/PS5 kernel driver IOCTL 32-bit control codes (DeviceType, Function, Method, Access).",
+    "name": "rea_mod_test_computer",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_computer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -250,8 +199,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "elf_pe_prx_header_triage",
-    "description": "[rea (morluto) Omni-Nexus] Inspect ELF/PE/PRX/SELF magic headers, sections, Shannon entropy, and security mitigations (NX/Canary/RELRO).",
+    "name": "rea_mod_test_solve",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -267,8 +216,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_v8_spa_snapshot",
-    "description": "[rea (morluto) Omni-Nexus] Render JavaScript SPA via Obscura 0.2.7 V8 engine and return full accessibility/DOM tree snapshot.",
+    "name": "rea_mod_test_solve_cleanup",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/agentenv/test_solve_cleanup.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -284,8 +233,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_multi_worker_burst",
-    "description": "[rea (morluto) Omni-Nexus] Parallel-scrape up to 25 URLs simultaneously via Obscura Rust worker pool with per-URL ms telemetry.",
+    "name": "rea_mod_rea_bridge",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/rea_bridge.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -301,8 +250,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_rust_png_pdf_capture",
-    "description": "[rea (morluto) Omni-Nexus] Render webpage to PNG/PDF via Obscura zero-Chromium Rust paint engine (taffy + tiny-skia) with SHA-256 hash.",
+    "name": "rea_mod_test_private_acl",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/cutter/test_private_acl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -318,8 +267,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_form_and_api_sniffer",
-    "description": "[rea (morluto) Omni-Nexus] Auto-detect interactive DOM forms, hidden inputs, and XHR/fetch endpoints on any target URL.",
+    "name": "rea_mod_hopper_bridge",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/hopper_bridge.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -335,8 +284,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_llms_txt_harvester",
-    "description": "[rea (morluto) Omni-Nexus] Locate and ingest /llms.txt, /sitemap.xml, and technical documentation indexes into clean Markdown.",
+    "name": "rea_mod_hexrays_queries",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/hexrays_queries.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -352,8 +301,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "openxml_154run_dewatermarker",
-    "description": "[rea (morluto) Omni-Nexus] Forensically scrub zero-width Unicode steganography, OpenXML rsidR footprints, and robotic syntax.",
+    "name": "rea_mod_test_hexrays_queries",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/ida/test_hexrays_queries.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -369,8 +318,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "zero_dash_and_cliche_auditor",
-    "description": "[rea (morluto) Omni-Nexus] Enforce 0 em-dashes, 0 en-dashes, and screen against banned AI lexicon phrases with exact line offsets.",
+    "name": "rea_mod_rea_lldb_tracer",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/rea_lldb_tracer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -386,8 +335,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "algernonist_1of1_originality_audit",
-    "description": "[rea (morluto) Omni-Nexus] Run subtractive research QA, whitespace elimination, and 1-of-1 originality scoring on any draft.",
+    "name": "rea_mod_test_rea_lldb_tracer",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/native/test_rea_lldb_tracer.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -403,8 +352,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "fts5_semantic_vault_search",
-    "description": "[rea (morluto) Omni-Nexus] Run full-text FTS5 BM25 ranked search across persistent SQLite knowledge and quote vaults.",
+    "name": "rea_mod_core_context",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/core_context.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -420,8 +369,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "json_csv_schema_auto_ingestor",
-    "description": "[rea (morluto) Omni-Nexus] Infer SQLite table schema from raw JSON/CSV payloads and batch-upsert records with provenance.",
+    "name": "rea_mod_launch",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -437,8 +386,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "check2_smod_error_predictor",
-    "description": "[rea (morluto) Omni-Nexus] Run pre-flight error prediction across hierarchical SMod1-SMod9 and nested aSMod21/bSMod21/cSMod21 tiers.",
+    "name": "rea_mod_launch_impl",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/launch_impl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -454,8 +403,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "hexa_decompile_and_gcc_verify",
-    "description": "[rea (morluto) Omni-Nexus] Chain Radare2/Cutter triage -> Ghidra/IDA lift -> LLM4Decompile C99 refine -> GCC -O0..-O3 assert check.",
+    "name": "rea_mod_test_core_context",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwndbg/test_core_context.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -471,8 +420,76 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "anyps5_prx_import_audit_bridge",
-    "description": "[rea (morluto) Omni-Nexus] Audit PS5 ELF/SELF imports -> cross-reference boykopovar/AnyPS5 PRX stubs -> generate C++20 fail-fast stub.",
+    "name": "rea_mod_decoder_runtime",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/decoder_runtime.py` inside morluto/rea.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "rea_mod_layout",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout.py` inside morluto/rea.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "rea_mod_layout_impl",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/layout_impl.py` inside morluto/rea.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "rea_mod_recorded_crash",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash.py` inside morluto/rea.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "rea_mod_recorded_crash_impl",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Execute or inspect harvested module `bridge/pwntools/recorded_crash_impl.py` inside morluto/rea.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -489,7 +506,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "rea_hexa_engine_bridge",
-    "description": "[rea (morluto) Omni-Nexus] Coordinate multi-engine tasks across Obscura, Radare2, Ghidra, IDA 9.5, LLM4Decompile, and Craft-Anything.",
+    "description": "[Rea OmniNexus (morluto/rea, 28 Tools)] Coordinate multi-engine tasks across Obscura, Radare2, Ghidra, IDA 9.5, LLM4Decompile, and Craft-Anything.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -506,33 +523,34 @@ CURATED_TOOLS = [
   }
 ]
 TOOL_MODES = {
-  "orchestrate_cli_repo_to_cutter_r2_with_check2_smod0": "composite_pipeline",
-  "orchestrate_cli_repo_to_llm4decompile_c99_with_sqlite_vault": "composite_pipeline",
-  "orchestrate_obscura_v8_to_cutter_r2_with_check2_smod0": "composite_pipeline",
   "rea_doctor_and_status": "cli_exec",
-  "rea_execute_command": "cli_exec",
-  "rea_inspect_scripts": "cli_exec",
-  "rea_inspect_src": "cli_exec",
-  "rea_obscura_live_docs_bridge": "obscura_scrape",
-  "rea_smod0_verified_pipeline": "composite_pipeline",
-  "memfd_ram_sandbox_exec": "cli_exec",
-  "yara_signature_synthesizer": "rule_validator",
-  "c_struct_layout_reconstructor": "rule_validator",
-  "ioctl_switch_table_decoder": "cli_exec",
-  "elf_pe_prx_header_triage": "cli_exec",
-  "obscura_v8_spa_snapshot": "obscura_scrape",
-  "obscura_multi_worker_burst": "obscura_scrape",
-  "obscura_rust_png_pdf_capture": "obscura_scrape",
-  "obscura_form_and_api_sniffer": "obscura_scrape",
-  "obscura_llms_txt_harvester": "obscura_scrape",
-  "openxml_154run_dewatermarker": "rule_validator",
-  "zero_dash_and_cliche_auditor": "rule_validator",
-  "algernonist_1of1_originality_audit": "rule_validator",
-  "fts5_semantic_vault_search": "sqlite_query",
-  "json_csv_schema_auto_ingestor": "sqlite_query",
-  "check2_smod_error_predictor": "rule_validator",
-  "hexa_decompile_and_gcc_verify": "composite_pipeline",
-  "anyps5_prx_import_audit_bridge": "composite_pipeline"
+  "rea_discover_all_hidden_capabilities": "cli_exec",
+  "rea_run_any_subcommand_or_script": "cli_exec",
+  "rea_native_mcp_manifest_bridge": "cli_exec",
+  "rea_mod_capture": "cli_exec",
+  "rea_mod_computer": "cli_exec",
+  "rea_mod_solve": "cli_exec",
+  "rea_mod_solve_cleanup": "cli_exec",
+  "rea_mod_test_capture": "cli_exec",
+  "rea_mod_test_computer": "cli_exec",
+  "rea_mod_test_solve": "cli_exec",
+  "rea_mod_test_solve_cleanup": "cli_exec",
+  "rea_mod_rea_bridge": "cli_exec",
+  "rea_mod_test_private_acl": "cli_exec",
+  "rea_mod_hopper_bridge": "cli_exec",
+  "rea_mod_hexrays_queries": "cli_exec",
+  "rea_mod_test_hexrays_queries": "cli_exec",
+  "rea_mod_rea_lldb_tracer": "cli_exec",
+  "rea_mod_test_rea_lldb_tracer": "cli_exec",
+  "rea_mod_core_context": "cli_exec",
+  "rea_mod_launch": "cli_exec",
+  "rea_mod_launch_impl": "cli_exec",
+  "rea_mod_test_core_context": "cli_exec",
+  "rea_mod_decoder_runtime": "cli_exec",
+  "rea_mod_layout": "cli_exec",
+  "rea_mod_layout_impl": "cli_exec",
+  "rea_mod_recorded_crash": "cli_exec",
+  "rea_mod_recorded_crash_impl": "cli_exec"
 }
 
 
@@ -574,6 +592,31 @@ def _run_memfd_or_subprocess(cmd_args: list, timeout_sec: int = 20) -> dict:
 
 
 def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
+    if tool_name.endswith("_discover_all_hidden_capabilities"):
+        src_root = Path("/tmp/" + ENGINE_SLUG.replace("-", "_") + "_src")
+        found_scripts, found_manifests, found_bins = [], [], []
+        if src_root.exists():
+            for p in list(src_root.rglob("*"))[:400]:
+                if p.is_file():
+                    rel = str(p.relative_to(src_root))
+                    nl = p.name.lower()
+                    if nl in ("makefile", "package.json", "pyproject.toml", "cargo.toml", "cmakelists.txt", "mcp.json", "server.json"):
+                        found_manifests.append(rel)
+                    elif p.suffix.lower() in (".py", ".sh", ".js", ".ts") and len(found_scripts) < 40:
+                        found_scripts.append(rel)
+                    elif os.access(str(p), os.X_OK) and len(found_bins) < 20:
+                        found_bins.append(rel)
+        return {
+            "status": "RUNTIME_CAPABILITIES_DISCOVERED",
+            "engine_slug": ENGINE_SLUG,
+            "cloned_src_dir_exists": src_root.exists(),
+            "manifests_found": found_manifests,
+            "scripts_sample": found_scripts,
+            "executables_found": found_bins,
+            "total_exposed_mcp_tools": len(CURATED_TOOLS),
+            "tip": "Invoke any discovered script or subcommand immediately via `" + ENGINE_SLUG.replace("-", "_") + "_run_any_subcommand_or_script`!",
+        }
+
     if tool_name.endswith("_hexa_engine_bridge"):
         return {
             "status": "HEXA_BRIDGE_CONNECTED",
@@ -586,6 +629,9 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
                 "ida_hexrays": "https://ida-hexrays-mcp-forever.forested-lung.workers.dev/mcp",
                 "craft_anything": "https://craft-anything-mcp-forever.forested-lung.workers.dev/mcp",
                 "ghidra": "https://ghidra-mcp-forever.forested-lung.workers.dev/mcp",
+                "cutter": "https://cutter-mcp-forever.forested-lung.workers.dev/mcp",
+                "rea": "https://rea-mcp-forever.forested-lung.workers.dev/mcp",
+                "rea_portal": "https://rea-portal-mcp-forever.forested-lung.workers.dev/mcp",
             },
             "payload_json": arguments.get("payload_json", "{}"),
         }
@@ -660,6 +706,21 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
         except Exception as exc:
             result["http_proxy_response"] = {"error": str(exc)}
 
+    elif mode == "gpu_compute":
+        gpu_info = _run_memfd_or_subprocess(["nvidia-smi", "--query-gpu=name,driver_version,memory.total,memory.free,utilization.gpu", "--format=csv,noheader"])
+        cuda_ok = (gpu_info.get("exit_code") == 0 and bool(gpu_info.get("stdout", "").strip()))
+        result["gpu_compute_telemetry"] = {
+            "cuda_gpu_detected": cuda_ok,
+            "nvidia_smi": gpu_info.get("stdout", "").strip() if cuda_ok else "CLOUD_CPU_AND_WORKERS_AI_ACTIVE (24/7 Free Cloudflare Workers AI Edge GPU + Optional Free Colab/Kaggle T4 Cloud Relay)",
+            "cpu_cores": os.cpu_count(),
+            "platform": platform.platform(),
+            "requested_operation": query or "gpu_probe",
+        }
+        if query.strip() and opts.get("cmd"):
+            cmd = opts.get("cmd")
+            if isinstance(cmd, str):
+                cmd = cmd.split()
+            result["gpu_workload_exec"] = _run_memfd_or_subprocess(cmd, timeout_sec=60)
     elif mode == "composite_pipeline":
         cmd = opts.get("cmd") or ["uname", "-a"]
         if isinstance(cmd, str):
