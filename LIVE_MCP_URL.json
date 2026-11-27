@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "rea",
   "title": "Rea OmniNexus (morluto/rea, 28 Tools)",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-27T20:13:25Z"
+  "mcp_url": "https://ecology-labour-mini-approaches.trycloudflare.com/mcp",
+  "gui_url": "https://ecology-labour-mini-approaches.trycloudflare.com/",
+  "updated_at": "2026-11-27T20:14:29Z"
 }
